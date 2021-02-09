@@ -1,0 +1,8 @@
+number1 = input("Please input a number1:")
+number2 = input("Please input another number2:")
+number1 = int(number1)
+number2 = int(number2)
+print("Sum of above 2 numbers is: {}".format((number1+number2)))
+print("difference of above 2 numbers is: {}".format((number1-number2)))
+print("product of above two numbers is: {}".format((number1*number2)))
+print("divison of above two numbers is: {}".format((number1/number2)))

@@ -1,0 +1,16 @@
+from turtle import Turtle,Screen
+
+screen = Screen()
+screen.setup(width=0.65, height=0.65, startx=700, starty=0)
+sonali = Turtle()
+sonali.pen()
+sonali.shape("turtle")
+sonali.color("orange")
+sonali.forward(200)
+sonali.left(90)
+sonali.forward(100)
+sonali.left(90)
+sonali.forward(200)
+sonali.left(90)
+sonali.forward(100)
+screen.exitonclick()
